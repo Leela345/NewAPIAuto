@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Check if user is able to submit GET API request",
+        "description": "",
+        "id": "this-feature-is-to-check-get-data-from--api;check-if-user-is-able-to-submit-get-api-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 236914700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to execute service \u003chttps://simple-tool-rental-api.glitch.me\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003chttps://simple-tool-rental-api.glitch.me\u003e",
+                  "offset": 26
+                }
+              ],
+              "location": "TestAPI.givenIwantToexecuteSercive(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8175877100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I submit the GET request as per the data in Excel Worksheet 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 60
+                }
+              ],
+              "location": "TestAPI.whenIsubmitgetrequest(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6492000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate status code",
+            "match": {
+              "location": "TestAPI.whenIvalidateStatusCode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 879011600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate mandatory tag in response from Excel Worksheet 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 58
+                }
+              ],
+              "location": "TestAPI.validateMandatoryTag(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 376600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate response content",
+            "match": {
+              "location": "TestAPI.i_validate_response_content()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check GET data from  API",
+    "description": "",
+    "id": "this-feature-is-to-check-get-data-from--api",
+    "keyword": "Feature",
+    "uri": "C:/Automation Stuff/API Automation/Leela_API-master/API_Demo/API_dobledemo/src/main/java/FeatureFiles/GETAPI.feature"
+  }
+]

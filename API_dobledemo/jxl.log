@@ -1,0 +1,94 @@
+2022-04-27 13:07:49,609 [INFO ] stepDefinitions.TestAPI  - We are going to execute service <https://simple-tool-rental-api.glitch.me>
+2022-04-27 13:07:55,485 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://simple-tool-rental-api.glitch.me:443
+2022-04-27 13:07:55,538 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to simple-tool-rental-api.glitch.me:443
+2022-04-27 13:07:56,818 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2022-04-27 13:07:56,823 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2022-04-27 13:07:56,823 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2022-04-27 13:07:56,825 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2022-04-27 13:07:56,825 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2022-04-27 13:07:56,825 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /?0=0&0=0&0=0&0=0 HTTP/1.1
+2022-04-27 13:07:56,826 [DEBUG] org.apache.http.wire  -  >> "GET /?0=0&0=0&0=0&0=0 HTTP/1.1[\r][\n]"
+2022-04-27 13:07:56,828 [DEBUG] org.apache.http.wire  -  >> "header2: User2[\r][\n]"
+2022-04-27 13:07:56,828 [DEBUG] org.apache.http.wire  -  >> "header1: User1[\r][\n]"
+2022-04-27 13:07:56,828 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2022-04-27 13:07:56,828 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+2022-04-27 13:07:56,828 [DEBUG] org.apache.http.wire  -  >> "Host: simple-tool-rental-api.glitch.me[\r][\n]"
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_202)[\r][\n]"
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> GET /?0=0&0=0&0=0&0=0 HTTP/1.1
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> header2: User2
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> header1: User1
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> Content-Length: 0
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> Host: simple-tool-rental-api.glitch.me
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2022-04-27 13:07:56,829 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_202)
+2022-04-27 13:07:56,830 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2022-04-27 13:07:57,154 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-04-27 13:07:57,157 [DEBUG] org.apache.http.wire  -  << "Date: Wed, 27 Apr 2022 07:38:02 GMT[\r][\n]"
+2022-04-27 13:07:57,157 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-04-27 13:07:57,157 [DEBUG] org.apache.http.wire  -  << "Content-Length: 52[\r][\n]"
+2022-04-27 13:07:57,158 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2022-04-27 13:07:57,158 [DEBUG] org.apache.http.wire  -  << "x-powered-by: Express[\r][\n]"
+2022-04-27 13:07:57,158 [DEBUG] org.apache.http.wire  -  << "etag: W/"34-sbYY/Y8dQr8kF+F2H65XEHWmpFQ"[\r][\n]"
+2022-04-27 13:07:57,158 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.headers  - << Date: Wed, 27 Apr 2022 07:38:02 GMT
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.headers  - << Content-Length: 52
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.headers  - << x-powered-by: Express
+2022-04-27 13:07:57,159 [DEBUG] org.apache.http.headers  - << etag: W/"34-sbYY/Y8dQr8kF+F2H65XEHWmpFQ"
+2022-04-27 13:07:57,166 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2022-04-27 13:07:57,223 [DEBUG] io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2022-04-27 13:07:57,223 [DEBUG] io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-04-27 13:07:57,335 [DEBUG] org.apache.http.wire  -  << "{"message":"Welcome to the Simple Tool Rental API."}"
+2022-04-27 13:07:57,336 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68880c21
+2022-04-27 13:07:57,336 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+2022-04-27 13:07:58,781 [DEBUG] freemarker.cache  - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:58,786 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2022-04-27 13:07:58,797 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("index.ftl"): Found
+2022-04-27 13:07:58,800 [DEBUG] freemarker.cache  - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2022-04-27 13:07:59,320 [DEBUG] freemarker.cache  - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,321 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2022-04-27 13:07:59,322 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("head.ftl"): Found
+2022-04-27 13:07:59,322 [DEBUG] freemarker.cache  - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2022-04-27 13:07:59,381 [DEBUG] freemarker.cache  - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,383 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2022-04-27 13:07:59,385 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2022-04-27 13:07:59,385 [DEBUG] freemarker.cache  - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2022-04-27 13:07:59,406 [DEBUG] freemarker.cache  - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,407 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2022-04-27 13:07:59,408 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2022-04-27 13:07:59,408 [DEBUG] freemarker.cache  - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2022-04-27 13:07:59,435 [DEBUG] freemarker.cache  - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,436 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2022-04-27 13:07:59,437 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2022-04-27 13:07:59,437 [DEBUG] freemarker.cache  - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2022-04-27 13:07:59,453 [DEBUG] freemarker.cache  - Couldn't find template in cache for "test-view/bdd.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,454 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("test-view/bdd_en.ftl"): Not found
+2022-04-27 13:07:59,455 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("test-view/bdd.ftl"): Found
+2022-04-27 13:07:59,456 [DEBUG] freemarker.cache  - Loading template for "test-view/bdd.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/test-view/bdd.ftl"
+2022-04-27 13:07:59,478 [DEBUG] freemarker.cache  - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,480 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2022-04-27 13:07:59,480 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2022-04-27 13:07:59,481 [DEBUG] freemarker.cache  - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2022-04-27 13:07:59,487 [DEBUG] freemarker.cache  - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,488 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2022-04-27 13:07:59,489 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2022-04-27 13:07:59,489 [DEBUG] freemarker.cache  - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2022-04-27 13:07:59,495 [DEBUG] freemarker.cache  - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,496 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2022-04-27 13:07:59,497 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2022-04-27 13:07:59,497 [DEBUG] freemarker.cache  - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2022-04-27 13:07:59,503 [DEBUG] freemarker.cache  - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,504 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2022-04-27 13:07:59,505 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2022-04-27 13:07:59,505 [DEBUG] freemarker.cache  - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2022-04-27 13:07:59,513 [DEBUG] freemarker.cache  - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-04-27 13:07:59,513 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2022-04-27 13:07:59,514 [DEBUG] freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2022-04-27 13:07:59,514 [DEBUG] freemarker.cache  - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lagisetty/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

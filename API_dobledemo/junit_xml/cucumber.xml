@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.298672">
+<testcase classname="This feature is to check GET data from  API" name="Check if user is able to submit GET API request" time="9.298672">
+<system-out><![CDATA[Given I want to execute service <https://simple-tool-rental-api.glitch.me>..passed
+When I submit the GET request as per the data in Excel Worksheet 0..........passed
+Then I validate status code.................................................passed
+Then I validate mandatory tag in response from Excel Worksheet 0............passed
+Then I validate response content............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
